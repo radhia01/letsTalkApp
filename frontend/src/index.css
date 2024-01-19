@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+   /* background-image: url("https://previews.123rf.com/images/macrovector/macrovector1407/macrovector140700436/30081081-seamless-social-network-media-icons-pattern-background-vector-illustration.jpg") */
+  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.messages{
+  height:650px
+}
+.search{
+  height:650px
+}
+.avatar{
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 70% 50%;
+  
+}
+.avatar2{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 70% 50%;
+  
+}
+button:hover{
+  background-color: white !important;
+  color:black  !important;
+
+}
+.groupavatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 70% 50%;
+}
+.useravatar{
+   width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 70% 50%;
+}
+.btn {
+  border:"none" !important 
+}

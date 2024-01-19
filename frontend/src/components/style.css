@@ -1,0 +1,410 @@
+.error {
+  background-color: white;
+  color: Red;
+  min-width: 300px;
+  height: 45px;
+  border: 2px solid red;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+  padding: 5px;
+  font-size: 18px;
+  position: fixed;
+  top: 55%;
+  right: 30px;
+}
+.success {
+  background-color: white;
+  color: green;
+  min-width: 300px;
+  height: 45px;
+  border: 2px solid green;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+  padding: 5px;
+  font-size: 18px;
+  position: fixed;
+  top: 55%;
+  right: 30px;
+}
+/* header component  */
+.header .userpart {
+  position: absolute;
+  right: 40px;
+  margin-top: 20px;
+}
+.header.invitations {
+  font-size: 15px;
+  width: 200px;
+  margin-right: 0px;
+}
+.header .confirm {
+  width: 60px;
+  font-size: 10px;
+  height: 30px;
+}
+.header .username {
+  color: white;
+  margin-left: 5px;
+}
+.header .profileicon {
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* // register component  */
+.register {
+  border-radius: 20px;
+}
+.register .form-control {
+  height: 60px !important;
+  box-shadow: none !important;
+}
+.register .header {
+  height: 100px !important;
+  display: flex;
+  justify-content: start;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.register {
+  font-family: Lobster Two, cursive !important;
+}
+.register .signin {
+  margin-top: 20px;
+  border: 2px double #e52535;
+  border-radius: 40px;
+  background-color: #e56d00 !important;
+}
+.register .add_btn:hover {
+  background-color: white !important;
+  color: black !important;
+}
+.register .add_btn {
+  background-color: black !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+.register form {
+  margin-left: 50px;
+}
+/* login component */
+
+.login .label-control {
+  min-width: 100px;
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+.login .link_btn {
+  background-color: #e56d00;
+}
+.login .form-group {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
+
+.login .form-control {
+  height: 60px !important;
+  box-shadow: none !important;
+}
+.login .add_btn {
+  background-color: black !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+.login .add_btn:hover {
+  background-color: white !important;
+  color: black !important;
+}
+.login .header {
+  height: 100px !important;
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+  border-radius: 20px;
+}
+/* users list component  */
+
+.homepage {
+  margin-left: 30px;
+  height: 100vh !important;
+}
+.homepage .user {
+  width: 170px !important;
+  position: relative;
+  margin: 10px;
+  height: 55px;
+}
+.homepage .newmessage {
+  font-size: 13px;
+  color: green;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.homepage .message {
+  margin-top: 20px;
+  margin-bottom: 120px;
+  margin-left: 40px;
+  min-height: 100vh;
+}
+.homepage .message2 {
+  margin-left: 300px;
+  margin-top: 20px;
+  width: 450px;
+  height: 50px;
+  border-radius: 10px;
+}
+.homepage .sender_msg {
+  border-radius: 10px;
+  background-color: #dcdcdc;
+}
+.homepage .send_div {
+  width: 780px;
+  position: absolute;
+  margin-left: 40px;
+  bottom: 10px;
+}
+.group_send_div {
+  width: 780px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+.homepage .groupDiscuss {
+  min-height: 100vh;
+}
+.homepage .listusers {
+  border: 3px solid black;
+  height: 100vh;
+}
+.homepage .listus {
+  border: 3px solid black;
+  margin-bottom: 10px;
+}
+.homepage .groupList {
+  border: 3px solid black;
+  position: relative;
+  min-height: 100vh;
+  margin-bottom: 10px;
+}
+.homepage .usermessage {
+  border-radius: 10px;
+  width: 350px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homepage .members {
+  margin-top: 20px;
+  margin-bottom: 55px;
+  margin-left: 5px;
+}
+.homepage .groupmsg {
+  border-radius: 10px;
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.homepage .onlineicon {
+  visibility: hidden;
+  width: 80px;
+}
+.homepage .part2 {
+  position: relative;
+  background-color: #e56d00 !important;
+  min-height: 100vh;
+}
+.homepage .form-control {
+  box-shadow: none !important;
+}
+.homepage .add_friend_btn {
+  font-size: 12px !important;
+}
+.homepage .icon {
+  position: absolute;
+  right: 80px;
+  top: 8px;
+}
+.homepage .userimg {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+.homepage .search_input {
+  width: 90%;
+  border: 2px solid black !important;
+  height: 40px;
+  color: black !important;
+}
+.homepage .send_input {
+  height: 60px !important;
+}
+.homepage .name {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.homepage .send_btn {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold !important;
+  height: 40px;
+  margin-top: 10px !important;
+  margin-bottom: 10px;
+}
+.homepage .user_btn {
+  box-shadow: none !important;
+
+  border: none;
+  height: 45px;
+}
+.homepage .send_btn:hover {
+  background-color: #e56d00 !important;
+  color: white !important;
+}
+.homepage .add_btn {
+  box-shadow: none !important;
+}
+.homepage .alert {
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  background-color: white;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 40px;
+  color: black !important;
+}
+.homepage .join_btn {
+  border-radius: 10px;
+  box-shadow: none !important;
+}
+.homepage .add_group_btn {
+  font-size: 15px !important;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 160px;
+  align-items: center;
+  box-shadow: none !important;
+}
+.header {
+  width: auto;
+}
+.groupDiscuss {
+  position: relative;
+  background-color: #e56d00 !important;
+  min-height: 100vh;
+}
+.message_group {
+  margin-top: 20px;
+  margin-bottom: 120px;
+  margin-left: 40px;
+}
+/* profile component  */
+.profile {
+  position: relative;
+}
+.profile .card-header {
+  background-color: #e56d00 !important;
+}
+.profile .remove_btn {
+  background-color: #f2f2f2 !important;
+  height: 30px;
+  border-color: #f2f2f2 !important;
+  position: absolute;
+  right: 5px;
+  bottom: 40%;
+  box-shadow: none !important;
+}
+.profile .delete_icon {
+  font-size: 25px;
+  margin-bottom: 15px;
+  float: right;
+}
+.profile .friend {
+  border: 1px solid #bfbfbf;
+  position: relative;
+}
+
+.profile .btn_signout {
+  background-color: #e56d00 !important;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: Lobster Two, cursive;
+}
+.profile .delete_btn {
+  background-color: red;
+  width: 100%;
+  font-family: Lobster Two, cursive;
+}
+.profile .close {
+  position: absolute;
+  top: 10px;
+  color: white;
+  font-size: 10px;
+  right: 10px;
+}
+.profile .btn_send {
+  background-color: red;
+}
+.profile .confirm_updated {
+  position: fixed;
+  top: 50%;
+  background-color: white !important;
+  left: 30px;
+}
+.profile .confirm_btn {
+  background-color: black !important;
+  color: white !important;
+  font-size: 12px !important ;
+}
+.profile .cancel_btn {
+  background-color: black !important;
+  color: white !important;
+  font-size: 12px !important ;
+  margin-left: 10px;
+}
+.profile .close_btn {
+  background-color: white !important ;
+  color: black !important;
+  box-shadow: none !important;
+}
+/* sign in component  */
+.signin {
+  margin-top: 50px;
+  border: 2px double #e52535;
+  border-radius: 40px;
+  background-color: #e56d00 !important;
+  font-family: Lobster Two, cursive !important;
+}
+.signin form {
+  margin-top: 50px;
+}
+
+/* edit profile component */
+
+.save_btn {
+  background-color: black !important;
+  font-family: "Lobster Two, cursive" !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+.editprofile .card {
+  background-color: #bfbfbf !important;
+  border-radius: 10px;
+  margin-right: 10px;
+}
